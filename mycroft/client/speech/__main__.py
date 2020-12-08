@@ -219,6 +219,7 @@ def main(ready_hook=on_ready, error_hook=on_error, stopping_hook=on_stopping,
     global bus
     global loop
     global config
+    global visualizer
     try:
         reset_sigint_handler()
         PIDLock("voice")
